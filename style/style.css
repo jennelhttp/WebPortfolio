@@ -464,3 +464,23 @@ section{
     opacity: 0.8;
 }
 
+/* RESUME */
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resume-img {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 230px) {
+.resume-img {
+    width: 100%;
+}
+}
+
